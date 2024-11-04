@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Join.css"
 import chatapplogo from '../../assets/chatapplogo.png';
 import {Link} from "react-router-dom"
+import Header from '../Header';
 
 //anchor tag causes reloading whereas Link does not reload the page
 
@@ -18,14 +19,17 @@ const Join = () => {
   }
 
   return (
+    <>
     <div className='joinPage'>
+
       <div className='joinContainer'>
-        <img src={chatapplogo} alt="" />
-        <h1>Lets Chat</h1>
-        <input onChange={(e)=>setName(e.target.value)} type="text" id="joinInput" placeholder="Enter your name"  />
+      <Header/>
+        <h2>Lets Chat</h2>
+        <input onChange={(e)=>setName(e.target.value)} type="text" id="joinInput" placeholder="Enter your username"  />
         <Link onClick={(e)=>!name?e.preventDefault():null} to='/chat'><button onClick={sendUser} className='joinbtn'>Login</button></Link>
       </div>
     </div>
+    </>
   )
 }
 

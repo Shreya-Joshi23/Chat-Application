@@ -1,5 +1,5 @@
 .joinPage{
-    background-color:rgb(55, 52, 52) ;
+    background:  linear-gradient(135deg, rgb(18, 18, 109) 50%, indigo 50%);
     margin:0;
     height:100vh;
     width:100vw;
@@ -16,9 +16,13 @@
     justify-content: center;
 }
 
-.joinContainer > h1{
+.joinContainer > .header {
+    all: unset; 
+  }
+
+.joinContainer > h2{
     color:white;
-    font-size:2.5vmax;
+    font-size:2vmax;
     font-family: "Roboto", sans-serif;
     width:30vmax;
     border-bottom:0.2vmax solid white;
