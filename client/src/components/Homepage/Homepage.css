@@ -1,0 +1,104 @@
+.homepage-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c2431;
+    color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background:linear-gradient(to left,
+    blue,
+    indigo,
+    blue) ;
+  }
+  
+  .logo {
+    font-size: 2em;
+    background: linear-gradient(to left,
+                    yellow,
+                    red,
+                    yellow);
+            -webkit-background-clip: text;
+            color: transparent;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+ .btn-start-chatting {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 94, 255);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-start-chatting:hover {
+    background-color: rgb(52, 82, 183)
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center;
+    background:  linear-gradient(135deg, rgb(18, 18, 109) 50%, indigo 50%);
+  }
+  
+  .intro-section {
+    margin-bottom: 30px;
+  }
+  
+  .welcome-text {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  .intro-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .features-section {
+    background: linear-gradient(to right,blue,limegreen,green,yellow,rgb(226, 145, 239),blue);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .features-heading {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .footer {
+    background:linear-gradient(to left,
+    blue,
+    indigo,
+    blue) ;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(8, 1, 21);
+  }
+  
