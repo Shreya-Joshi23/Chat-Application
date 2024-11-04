@@ -25,6 +25,7 @@
                     red,
                     yellow);
             -webkit-background-clip: text;
+            background-clip:calc();
             color: transparent;
   }
   
