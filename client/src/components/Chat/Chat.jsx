@@ -66,7 +66,7 @@ const Chat = () => {
     <div className='chatPage'>
       <div className='chatContainer'>
           <div className="chatheader">
-            <h2>CHIT CHAT</h2>
+            <h2>GlobalChat</h2>
             <a href="/"><IoIosCloseCircle className='closebtn'/></a>
           </div>
           <ReactScrollToBottom className="chatBox">
