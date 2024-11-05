@@ -7,7 +7,7 @@ import ReactScrollToBottom from 'react-scroll-to-bottom'
 import { IoIosCloseCircle } from "react-icons/io";
 
 let socket;
-const ENDPOINT="http://localhost:4500/";
+const ENDPOINT="https://chat-application-backend-d60o.onrender.com"||"http://localhost:4500/";
 
 const Chat = () => {
 
